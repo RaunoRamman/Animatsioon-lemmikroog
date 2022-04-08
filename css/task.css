@@ -1,0 +1,88 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(208, 223, 236);
+}
+.heading1{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(43, 153, 226);
+    text-align: center;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  
+}
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 10px;;}
+}
+
+.koostisosadetabel{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    color: rgb(43, 153, 226);
+
+}
+
+
+.juhend{
+    border: 1px solid black;
+    width: 50%;
+    margin: 3rem auto;
+    color: rgb(2, 26, 26);
+    color: rgb(43, 153, 226);
+    text-align: center;
+    margin: 3rem auto;
+    width: 200px;
+    position: relative;
+    animation: textleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes textright{
+    0%{right: -1000px;}
+    85%{right: 50px;}
+    100%{right: 0;}
+}
+.juhend ol{
+    border: 1px solid green;
+    margin: 0% auto;
+    width: 75%;
+    text-align: center;
+    margin: 1rem  auto;
+    width: 400px;
+    margin-top: 32px;
+    position: relative;
+    text-align: right;
+    animation: textright;
+    animation-duration: 4s;
+}
+
+@keyframes textleft{
+    0% {left: -1000px;}
+    85% {left: 20px;}
+    100% {left: 0;}
+}
+
+.pilt{
+    width: 500px;
+margin-inline: 30rem;
+
+}
+
+.Fontcolor {
+    color: rgb(255, 5, 3);
+}
